@@ -1,0 +1,68 @@
+{
+  "seed": 42,
+  "openml_data_id": 1590,
+  "selection_metric": "roc_auc",
+  "n_train": 31258,
+  "n_val": 7815,
+  "n_test": 9769,
+  "models": {
+    "majority": {
+      "val": {
+        "accuracy": 0.7607165706973769,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "average_precision": 0.23928342930262317
+      },
+      "test": {
+        "accuracy": 0.7606715119254785,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "average_precision": 0.23932848807452145
+      }
+    },
+    "logistic": {
+      "val": {
+        "accuracy": 0.8115163147792707,
+        "f1": 0.682748223131596,
+        "roc_auc": 0.90704955856492,
+        "average_precision": 0.7695094506193157
+      },
+      "test": {
+        "accuracy": 0.8085781553894974,
+        "f1": 0.678030303030303,
+        "roc_auc": 0.9054578426053483,
+        "average_precision": 0.765351598859143
+      }
+    },
+    "random_forest": {
+      "val": {
+        "accuracy": 0.8089571337172105,
+        "f1": 0.6871988267337105,
+        "roc_auc": 0.9146054519368723,
+        "average_precision": 0.78724619849817
+      },
+      "test": {
+        "accuracy": 0.807349779916061,
+        "f1": 0.6844399731723675,
+        "roc_auc": 0.9130554278719797,
+        "average_precision": 0.7892023039731687
+      }
+    },
+    "hist_gradient_boosting": {
+      "val": {
+        "accuracy": 0.8766474728087013,
+        "f1": 0.7179637214745466,
+        "roc_auc": 0.9298370085858335,
+        "average_precision": 0.834846370845288
+      },
+      "test": {
+        "accuracy": 0.8769577234107893,
+        "f1": 0.7179727827311122,
+        "roc_auc": 0.9287109787576355,
+        "average_precision": 0.8309658651469932
+      }
+    }
+  },
+  "best_model": "hist_gradient_boosting",
+  "best_val_metric": 0.9298370085858335
+}
